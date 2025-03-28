@@ -65,7 +65,7 @@ async def main():
 
 async def getSourcesAndAnswer():
     print("Fetching sources")
-    await asyncio.sleep(2)
+    await asyncio.sleep(3)
 
     # Start fetching Answer with stream: true
     # Return { sources: [], answer: stream }
